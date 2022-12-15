@@ -1,0 +1,302 @@
+@import "cheat";
+
+
+
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+
+.container {
+    margin: auto;
+}
+
+header {
+    height: 116px;
+
+    .navbar {
+        padding-top: 35px;
+    }
+}
+
+
+
+
+
+ul {
+
+    li {
+        text-transform: uppercase;
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: $grey;
+            transition: 0.5s;
+
+            &:hover {
+                transition: 0.5s;
+                color: $darkgreyblue;
+
+            }
+
+        }
+
+    }
+}
+
+.hero {
+    background-image: url(/images/Greatcoffee.svg);
+    height: 600px;
+    border-radius: 10px;
+    color: $lightcream;
+
+
+    .hero_row {
+        height: 600px;
+        padding-left: 85px;
+
+        .hero_text {
+            .hero_title {
+                padding-bottom: 32px;
+            }
+
+            .hero_subtitle {
+                color: $lightcream;
+                padding-bottom: 56px;
+            }
+
+            .hero_button {
+                width: 217px;
+                height: 56px;
+                text-align: center;
+                padding: 15px 0px 16px 0px;
+                box-sizing: border-box;
+                margin-left: 1rem;
+            }
+        }
+
+    }
+
+
+}
+
+.collection {
+
+    width: 1111px;
+    height: 750px;
+    margin: auto;
+    padding-top: 136px;
+
+
+    .collection_background {
+        background-image: url(/images/ourcollection.svg);
+        height: 196px;
+        margin: 0;
+
+        .collection_pack {
+            padding-top: 126px;
+            text-align: center;
+
+            .collection_img {
+                padding-bottom: 71px;
+            }
+
+            .collection_h4 {
+                padding-bottom: 24px
+            }
+        }
+    }
+}
+
+.advantages {
+    background-color: $darkgreyblue;
+    height: 577px;
+    margin-bottom: 300px;
+
+
+    .adventages_row {
+        height: 346px;
+
+        .advantages_in {
+            color: $lightcream;
+
+            .advantages_title {
+                padding-bottom: 32px;
+                padding-top: 100px;
+            }
+
+            .advantages_subtitle {
+                padding-bottom: 86px;
+            }
+        }
+
+
+    }
+
+    .advantages_row2 {
+
+        width: 1206px;
+        margin: auto;
+
+        .adventages_box {
+            width: 350px;
+            height: 382px;
+            background-color: $darkcyan;
+            border-radius: 8px;
+            text-align: center;
+            color: $lightcream;
+
+
+            box-icon {
+                width: 72px;
+                height: 72px;
+                margin-bottom: 56px;
+                color: $paleorange;
+            }
+
+            .box_in {
+                margin: auto;
+
+                .box_title {
+                    padding-bottom: 23px;
+
+                }
+            }
+
+        }
+
+
+
+
+    }
+
+
+}
+
+.plan {
+
+    width: 1010px;
+    margin: auto;
+    height: 900px;
+
+    .plan_title {
+        color: $grey;
+        padding-bottom: 80px;
+
+    }
+
+    .orangeline {
+        width: 750px;
+        border: 1px solid #FDD6BA;
+        position: relative;
+        top: 17.5px;
+        background-color: #FDD6BA;
+    }
+
+    .plan_row {
+        width: 801px;
+        position: relative;
+        z-index: 1;
+        padding-left: 10px;
+    }
+
+    .green_dot {
+        width: 31px;
+        height: 31px;
+        border: 2px solid #0E8784;
+        border-radius: 100px;
+        background-color: #FEFCF7;
+    }
+
+    .stages {
+        padding-top: 66px;
+
+        .numbers {
+            .number {
+                width: 285px;
+                box-sizing: content-box;
+
+                h1 {
+                    color: #FDD6BA;
+                    padding-bottom: 38px;
+                }
+
+                h4 {
+                    padding-bottom: 43px;
+                }
+            }
+        }
+
+        .plan_button {
+            width: 217px;
+            height: 56px;
+            text-align: center;
+            line-height: 56px;
+            margin-top: 64px;
+        }
+    }
+}
+
+footer {
+    height: 116px;
+    background-color: #2C343E;
+
+    .nav_fut {
+        width: 1010px;
+        text-align: start;
+
+        .logo {
+            color: $lightcream;
+        }
+
+        ul {
+
+            li {
+                text-transform: uppercase;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: $grey;
+                    transition: 0.5s;
+
+                    &:hover {
+                        transition: 0.5s;
+                        color: $lightcream;
+                    }
+
+                }
+
+            }
+        }
+
+        .network {
+
+
+            .lasticon {
+                width: 24px;
+                height: 24px;
+
+
+                &:hover {
+                    cursor: pointer;
+                    color: #FDD6BA;
+                }
+
+            }
+        }
+    }
+}
