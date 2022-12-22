@@ -112,7 +112,7 @@ ul li a:hover {
 }
 
 .hero {
-  background-image: url(/images/Greatcoffee.svg);
+  background-image: url("../images/Greatcoffee.svg");
   height: 600px;
   border-radius: 10px;
   color: #FEFCF7;
